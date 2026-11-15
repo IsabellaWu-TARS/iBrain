@@ -1,0 +1,290 @@
+{
+ "schema": "neuroverse.brain_structure_map/1",
+ "asset": "neuroverse_zanatomy_optimized.usdz",
+ "units": "metres, max dimension 0.17, centred at origin, Y-up",
+ "naming": "USD sanitises: every non-alphanumeric char becomes '_'",
+ "verified_against": "neuroverse_zanatomy_optimized.usdz (234/234 prims matched)",
+ "structures": {
+  "hippocampus": {
+   "nodes": [
+    "Hippocampus (Left)",
+    "Hippocampus (Right)"
+   ],
+   "usd_nodes": [
+    "Hippocampus__Left_",
+    "Hippocampus__Right_"
+   ],
+   "note": "Atlas segment; 'Fornix (Left/Right)' carries its output if you want the pathway visible."
+  },
+  "prefrontal_cortex": {
+   "nodes": [
+    "Superior frontal gyrus (Left)",
+    "Superior frontal gyrus (Right)",
+    "Middle frontal gyrus (Left)",
+    "Middle frontal gyrus (Right)",
+    "Orbital gyri (Left)",
+    "Orbital gyri (Right)",
+    "Straight gyrus (Gyrus rectus) (Left)",
+    "Straight gyrus (Gyrus rectus) (Right)"
+   ],
+   "usd_nodes": [
+    "Superior_frontal_gyrus__Left_",
+    "Superior_frontal_gyrus__Right_",
+    "Middle_frontal_gyrus__Left_",
+    "Middle_frontal_gyrus__Right_",
+    "Orbital_gyri__Left_",
+    "Orbital_gyri__Right_",
+    "Straight_gyrus__Gyrus_rectus___Left_",
+    "Straight_gyrus__Gyrus_rectus___Right_"
+   ],
+   "note": "Not a single atlas structure: mapped to the dorsolateral + orbital frontal gyri."
+  },
+  "amygdala": {
+   "nodes": [
+    "Amygdaloid body (Left)",
+    "Amygdaloid body (Right)"
+   ],
+   "usd_nodes": [
+    "Amygdaloid_body__Left_",
+    "Amygdaloid_body__Right_"
+   ],
+   "note": null
+  },
+  "cerebellum": {
+   "nodes": [],
+   "usd_nodes": [
+    "Anterior_quadrangular_lobule__Left_",
+    "Anterior_quadrangular_lobule__Right_",
+    "Base_of_peduncle__Left_",
+    "Base_of_peduncle__Right_",
+    "Biventral_lobule__Left_",
+    "Biventral_lobule__Right_",
+    "Central_lobule",
+    "Culmen",
+    "Declive",
+    "Flocculus__Left_",
+    "Flocculus__Right_",
+    "Folium_of_vermis",
+    "Gracile_lobule__Left_",
+    "Gracile_lobule__Right_",
+    "Inferior_semilunar_lobule__Left_",
+    "Inferior_semilunar_lobule__Right_",
+    "Lingula_of_cerebellum",
+    "Nodule_of_vermis",
+    "Peduncle_of_flocculus__Left_",
+    "Peduncle_of_flocculus__Right_",
+    "Posterior_quadrangular_lobule__Left_",
+    "Posterior_quadrangular_lobule__Right_",
+    "Pyramis_of_vermis",
+    "Superior_cerebellar_peduncle__Left_",
+    "Superior_cerebellar_peduncle__Right_",
+    "Superior_semilunar_lobule__Left_",
+    "Superior_semilunar_lobule__Right_",
+    "Tonsil_of_cerebellum__Left_",
+    "Tonsil_of_cerebellum__Right_",
+    "Tuber_of_vermis",
+    "Uvula_of_vermis",
+    "Wing_of_central_lobule__Left_",
+    "Wing_of_central_lobule__Right_"
+   ],
+   "note": "Whole cerebellum = every prim in group 'Cerebellum' (lobules, vermis, peduncles).",
+   "usd_group": "Cerebellum"
+  },
+  "thalamus": {
+   "nodes": [
+    "Thalamus (Left)",
+    "Thalamus (Right)"
+   ],
+   "usd_nodes": [
+    "Thalamus__Left_",
+    "Thalamus__Right_"
+   ],
+   "note": "Z-Anatomy segments the thalamus as one shell per side; use the SPL build for thalamic nuclei."
+  },
+  "corpus_callosum": {
+   "nodes": [
+    "Corpus callosum"
+   ],
+   "usd_nodes": [
+    "Corpus_callosum"
+   ],
+   "note": null
+  },
+  "hypothalamus": {
+   "nodes": [
+    "Hypothalamus",
+    "Mamillary body (Left)",
+    "Mamillary body (Right)"
+   ],
+   "usd_nodes": [
+    "Hypothalamus",
+    "Mamillary_body__Left_",
+    "Mamillary_body__Right_"
+   ],
+   "note": null
+  },
+  "temporal_lobe": {
+   "nodes": [
+    "Superior temporal gyrus (Lateral part) (Left)",
+    "Superior temporal gyrus (Lateral part) (Right)",
+    "Middle temporal gyrus (Left)",
+    "Middle temporal gyrus (Right)",
+    "Inferior temporal gyrus (Left)",
+    "Inferior temporal gyrus (Right)",
+    "Temporal pole (Left)",
+    "Temporal pole (Right)",
+    "Transverse temporal gyri (Left)",
+    "Transverse temporal gyri (Right)",
+    "Temporal plane (Left)",
+    "Temporal plane (Right)",
+    "Superior temporal sulcus (Left)",
+    "Superior temporal sulcus (Right)",
+    "Inferior temporal sulcus (Left)",
+    "Inferior temporal sulcus (Right)"
+   ],
+   "usd_nodes": [
+    "Superior_temporal_gyrus__Lateral_part___Left_",
+    "Superior_temporal_gyrus__Lateral_part___Right_",
+    "Middle_temporal_gyrus__Left_",
+    "Middle_temporal_gyrus__Right_",
+    "Inferior_temporal_gyrus__Left_",
+    "Inferior_temporal_gyrus__Right_",
+    "Temporal_pole__Left_",
+    "Temporal_pole__Right_",
+    "Transverse_temporal_gyri__Left_",
+    "Transverse_temporal_gyri__Right_",
+    "Temporal_plane__Left_",
+    "Temporal_plane__Right_",
+    "Superior_temporal_sulcus__Left_",
+    "Superior_temporal_sulcus__Right_",
+    "Inferior_temporal_sulcus__Left_",
+    "Inferior_temporal_sulcus__Right_"
+   ],
+   "note": null
+  },
+  "occipital_lobe": {
+   "nodes": [
+    "Cuneus (Left)",
+    "Cuneus (Right)",
+    "Lingual gyrus (Left)",
+    "Lingual gyrus (Right)",
+    "Occipital pole (Left)",
+    "Occipital pole (Right)",
+    "Lateral occipital gyrus (Middle occipital gyrus) (Left)",
+    "Lateral occipital gyrus (Middle occipital gyrus) (Right)",
+    "Superior occipital gyri (Left)",
+    "Superior occipital gyri (Right)",
+    "Calcarine sulcus (Left)",
+    "Calcarine sulcus (Right)",
+    "Lunate sulcus (Left)",
+    "Lunate sulcus (Right)",
+    "Transverse occipital sulcus (Left)",
+    "Transverse occipital sulcus (Right)",
+    "Inferior occipital gyrus and sulcus (Left)",
+    "Inferior occipital gyrus and sulcus (Right)",
+    "Parieto-occipital sulcus (Left)",
+    "Parieto-occipital sulcus (Right)"
+   ],
+   "usd_nodes": [
+    "Cuneus__Left_",
+    "Cuneus__Right_",
+    "Lingual_gyrus__Left_",
+    "Lingual_gyrus__Right_",
+    "Occipital_pole__Left_",
+    "Occipital_pole__Right_",
+    "Lateral_occipital_gyrus__Middle_occipital_gyrus___Left_",
+    "Lateral_occipital_gyrus__Middle_occipital_gyrus___Right_",
+    "Superior_occipital_gyri__Left_",
+    "Superior_occipital_gyri__Right_",
+    "Calcarine_sulcus__Left_",
+    "Calcarine_sulcus__Right_",
+    "Lunate_sulcus__Left_",
+    "Lunate_sulcus__Right_",
+    "Transverse_occipital_sulcus__Left_",
+    "Transverse_occipital_sulcus__Right_",
+    "Inferior_occipital_gyrus_and_sulcus__Left_",
+    "Inferior_occipital_gyrus_and_sulcus__Right_",
+    "Parieto_occipital_sulcus__Left_",
+    "Parieto_occipital_sulcus__Right_"
+   ],
+   "note": "Primary visual cortex sits on the banks of the calcarine sulcus."
+  },
+  "parietal_lobe": {
+   "nodes": [
+    "Postcentral gyrus (Left)",
+    "Postcentral gyrus (Right)",
+    "Superior parietal lobule (Left)",
+    "Superior parietal lobule (Right)",
+    "Supramarginal gyrus (Left)",
+    "Supramarginal gyrus (Right)",
+    "Angular gyrus (Left)",
+    "Angular gyrus (Right)",
+    "Precuneus (Left)",
+    "Precuneus (Right)",
+    "Intraparietal sulcus (Left)",
+    "Intraparietal sulcus (Right)",
+    "Postcentral sulcus (Left)",
+    "Postcentral sulcus (Right)",
+    "Subparietal sulcus (Left)",
+    "Subparietal sulcus (Right)",
+    "Paracentral gyrus and sulcus (Left)",
+    "Paracentral gyrus and sulcus (Right)"
+   ],
+   "usd_nodes": [
+    "Postcentral_gyrus__Left_",
+    "Postcentral_gyrus__Right_",
+    "Superior_parietal_lobule__Left_",
+    "Superior_parietal_lobule__Right_",
+    "Supramarginal_gyrus__Left_",
+    "Supramarginal_gyrus__Right_",
+    "Angular_gyrus__Left_",
+    "Angular_gyrus__Right_",
+    "Precuneus__Left_",
+    "Precuneus__Right_",
+    "Intraparietal_sulcus__Left_",
+    "Intraparietal_sulcus__Right_",
+    "Postcentral_sulcus__Left_",
+    "Postcentral_sulcus__Right_",
+    "Subparietal_sulcus__Left_",
+    "Subparietal_sulcus__Right_",
+    "Paracentral_gyrus_and_sulcus__Left_",
+    "Paracentral_gyrus_and_sulcus__Right_"
+   ],
+   "note": null
+  },
+  "broca_area": {
+   "nodes": [
+    "Opercular part of inferior frontal gyrus (Left)",
+    "Opercular part of inferior frontal gyrus (Right)",
+    "Triangular part of inferior frontal gyrus (Left)",
+    "Triangular part of inferior frontal gyrus (Right)"
+   ],
+   "usd_nodes": [
+    "Opercular_part_of_inferior_frontal_gyrus__Left_",
+    "Opercular_part_of_inferior_frontal_gyrus__Right_",
+    "Triangular_part_of_inferior_frontal_gyrus__Left_",
+    "Triangular_part_of_inferior_frontal_gyrus__Right_"
+   ],
+   "note": "Functional region (pars opercularis + triangularis, BA44/45); the atlas segments the gyri, not the area."
+  },
+  "wernicke_area": {
+   "nodes": [
+    "Superior temporal gyrus (Lateral part) (Left)",
+    "Superior temporal gyrus (Lateral part) (Right)",
+    "Supramarginal gyrus (Left)",
+    "Supramarginal gyrus (Right)",
+    "Angular gyrus (Left)",
+    "Angular gyrus (Right)"
+   ],
+   "usd_nodes": [
+    "Superior_temporal_gyrus__Lateral_part___Left_",
+    "Superior_temporal_gyrus__Lateral_part___Right_",
+    "Supramarginal_gyrus__Left_",
+    "Supramarginal_gyrus__Right_",
+    "Angular_gyrus__Left_",
+    "Angular_gyrus__Right_"
+   ],
+   "note": "Approximation: posterior superior temporal gyrus (BA22) plus adjacent supramarginal/angular gyri."
+  }
+ }
+}

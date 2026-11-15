@@ -2,20 +2,14 @@
 //  ContentView.swift
 //  iBrain
 //
-//  Created by IsabellaWu on 2026/6/20.
+//  Created by Isabella Granger on 2026/6/20.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainTabView()
     }
 }
 
