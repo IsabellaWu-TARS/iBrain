@@ -184,6 +184,16 @@ final class BrainSceneController: ObservableObject {
                     self?.select(first)
                 }
             }
+            if ProcessInfo.processInfo.arguments.contains("-demoInternal") {
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.2) { [weak self] in
+                    self?.hide(groups: ["Cerebral Cortex", "White Matter"])
+                    self?.setDistance(0.34)
+                }
+                DispatchQueue.main.asyncAfter(deadline: .now() + 15.0) { [weak self] in
+                    self?.showAll()
+                    self?.setDistance(0.62)
+                }
+            }
             if ProcessInfo.processInfo.arguments.contains("-demoClear") {
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2.2) { [weak self] in
                     self?.clearSelection()
@@ -418,6 +428,14 @@ final class BrainSceneController: ObservableObject {
         hiddenIDs.removeAll()
     }
 
+    /// Hides every structure in the given anatomical systems (used by the demo film).
+    func hide(groups: Set<String>) {
+        guard let atlas else { return }
+        for structure in atlas.structures where groups.contains(structure.group) {
+            hide(structure.id)
+        }
+    }
+
     func hideSelected() {
         guard let selected else { return }
         hide(selected.id)
@@ -445,6 +463,16 @@ final class BrainSceneController: ObservableObject {
         var transform = cameraAnchor.transform
         transform.translation = [0, cameraHeight, currentDistance]
         cameraAnchor.transform = transform
+    }
+
+    /// Animates the camera to a given stand-off distance (metres).
+    func setDistance(_ distance: Float) {
+        guard let cameraAnchor else { return }
+        currentDistance = min(max(distance, minDistance), maxDistance)
+        var target = cameraAnchor.transform
+        target.translation = [0, cameraHeight, currentDistance]
+        cameraAnchor.move(to: target, relativeTo: cameraAnchor.parent,
+                           duration: 0.7, timingFunction: .easeInOut)
     }
 
     func resetCamera(animated: Bool = true) {

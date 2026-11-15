@@ -1,0 +1,27 @@
+1
+00:00:00,800 --> 00:00:11,980
+Every brain you've ever seen in a classroom was flat. A picture, a few arrows, a memory test. iBrain turns it into something you can hold, rotate, and question.
+
+2
+00:00:13,180 --> 00:00:31,280
+This isn't an illustration. It's a real anatomical atlas. Two hundred and thirty-four separate structures, each one its own object, from the precentral gyrus to the pons. Drag to turn it. Pinch to move closer. Everything sits at the scale of a real human brain.
+
+3
+00:00:32,480 --> 00:00:50,260
+Tap any region and it lights up, while the rest of the brain fades back. And you get an answer, not a label. What this structure is, which system it belongs to, and what it actually does. This is the superior frontal gyrus. Working memory, planning, attention.
+
+4
+00:00:51,460 --> 00:01:04,560
+Learn more opens the detail. Its functions, how it shows up in daily life, and why it matters clinically. This is the layer that turns anatomy into understanding. The thing a diagram can never give you.
+
+5
+00:01:05,760 --> 00:01:18,410
+Because every structure is separate, you can take the brain apart. Hide a region to look inside, then bring everything back with a single tap. That view doesn't exist anywhere else. You're building it.
+
+6
+00:01:19,610 --> 00:01:31,750
+Learn collects the bigger questions. Memory, emotion, sleep, movement, and neuroplasticity. Library is where your saved regions and topics will live as the app grows.
+
+7
+00:01:32,950 --> 00:01:46,370
+iBrain is built with Swift, SwiftUI, and RealityKit, on top of an open anatomical atlas. The next step is an AI layer that meets you at the structure you're actually looking at. Built for DSH Hacks.
